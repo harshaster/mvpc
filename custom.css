@@ -61,3 +61,35 @@ img.profile{
 .project-listing button{
     width: 100%;
 }
+
+
+article.proj{
+    padding: 10px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+details{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+details.about{
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+details[open] {
+    background-color: rgba(3, 3, 3, 0.54);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
+details.about p{
+    font-size: 100%;
+    color: white;
+}
