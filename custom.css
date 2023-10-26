@@ -21,6 +21,7 @@ article.gmp{
     background-color: rgba(3, 3, 3, 0.54);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 20px;
 }
 
 header h1{
